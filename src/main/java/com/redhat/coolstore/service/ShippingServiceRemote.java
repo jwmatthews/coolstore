@@ -6,5 +6,5 @@ import com.redhat.coolstore.model.ShoppingCart;
 
 @Remote
 public interface ShippingServiceRemote {
-    void calculateShipping(ShoppingCart sc);
+    double calculateShipping(ShoppingCart sc);
 }
