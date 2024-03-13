@@ -5,7 +5,7 @@ import javax.ejb.Stateless;
 import com.redhat.coolstore.model.ShoppingCart;
 
 @Stateless
-public class ShippingService {
+public class ShippingService implements ShippingServiceRemote {
 
     public void calculateShipping(ShoppingCart sc) {
 
